@@ -1,19 +1,10 @@
 {
-    "extends": [
-        "next/core-web-vitals",
-        "standard-with-typescript",
-        "plugin:prettier/recommended"
-    ],
+    "extends": ["next/core-web-vitals", "standard-with-typescript", "plugin:prettier/recommended"],
     "parserOptions": {
         "project": ["./tsconfig.json"]
     },
     "plugins": ["prettier"],
-    "ignorePatterns": [
-        "node_modules/**",
-        "public/**",
-        "tsconfig.json",
-        "*.d.ts"
-    ],
+    "ignorePatterns": ["node_modules/**", "public/**", "tsconfig.json", "*.d.ts"],
     "rules": {
         "prettier/prettier": "error",
         "no-console": 1,
@@ -28,6 +19,7 @@
         "react/react-in-jsx-scope": "off",
         // NextJs specific fix: allow jsx syntax in ts and tsx files
         "react/jsx-filename-extension": [1, { "extensions": [".ts", ".tsx"] }],
-        "react/display-name": "off"
+        "react/display-name": "off",
+        "max-lines": ["error", 600]
     }
 }
