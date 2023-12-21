@@ -1,0 +1,33 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.fontFamily": "'Fira Code'",
+        "editor.fontLigatures": true,
+        "editor.codeActionsOnSave": {
+            // For ESLint
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.fontFamily": "'Fira Code'",
+        "editor.fontLigatures": true,
+        "editor.codeActionsOnSave": {
+            // For ESLint
+            "source.fixAll.eslint": true
+        }
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.fontFamily": "'Fira Code'",
+        "editor.fontLigatures": true,
+        "editor.codeActionsOnSave": {
+            // For ESLint
+            "source.fixAll.eslint": true
+        }
+    },
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "eslint.workingDirectories": [{ "mode": "auto" }]
+}
